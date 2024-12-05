@@ -1,7 +1,7 @@
 FROM bitnami/node:9 as builder
 ENV NODE_ENV="production"
 
-COPY ./app
+COPY . /app
 
 WORKDIR /app
 
