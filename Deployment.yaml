@@ -23,7 +23,7 @@ spec:
                          imagePullPolicy: Always
                          ports:
                          - containerPort: 5000
-                           name: hello
+                           name: yorijori
 ---
 apiVersion: v1
 kind: Service
