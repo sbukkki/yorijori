@@ -1,4 +1,4 @@
-pipeine {
+pipeline {
         agent any
         environment {
                 PROJECT_ID = 'opensource-440901'
