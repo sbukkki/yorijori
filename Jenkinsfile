@@ -15,7 +15,7 @@ pipeine {
                 stage("Build image") {
                         steps {
                                 script {
-                                        myapp = docker.build("yeonii/yorijori:${env.BUILD_ID}"
+                                        myapp = docker.build("yeonii/yorijori:${env.BUILD_ID}")
                                 }
                         }
                 }
