@@ -1,4 +1,11 @@
 {
+ "name": "yorijori",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
   "dependencies": {
     "aws-sdk": "^2.1627.0",
     "bcrypt": "^5.1.1",
