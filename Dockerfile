@@ -1,14 +1,13 @@
-FROM bitnami/node:9 as builder
+FROM node:22 as builder
 ENV NODE_ENV="production"
 
-USER root
 COPY . /app
 
 WORKDIR /app
 
 RUN npm install
 
-FROM bitnami/node:9-prod
+FROM node:22
 ENV NODE_ENV="production"
 COPY --from=builder /app /app
 WORKDIR /app
