@@ -2,7 +2,7 @@ pipeline {
         agent any
         environment {
                 PROJECT_ID = 'opensource-440901'
-                CLUSTER_NAME = 'kube'
+                CLUSTER_NAME = 'k8s'
                 LOCATION = 'asia-northeast3-a'
                 CREDENTIAL_ID ='a2f22cf8-85e5-4681-84d4-1f809ebda999'
         }
